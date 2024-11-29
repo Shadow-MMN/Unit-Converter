@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="hero-section">
+      <h1 class="main-heading">Matric/Imperial Unit Conversion</h1>
+
+      <input type="text" id="input-el" />
+
+      <button id="convert-btn">Convert</button>
+    </div>
+    <div class="human-section">
+      <div class="human-child">
+        <h1 class="human-heading">Length(Meters/feet)</h1>
+        <p class="conversion-txt">
+          <span id="meters-to-feet"></span>|<span id="feet-to-meters"></span>
+        </p>
+      </div>
+      <div class="human-child">
+        <h1 class="human-heading">Voulme(liters/gallon)</h1>
+        <p class="conversion-txt">
+          <span id="liters-to-gallon"></span>|<span
+            id="gallon-to-liters"
+          ></span>
+        </p>
+      </div>
+      <div class="human-child">
+        <h1 class="human-heading">Mass(Kilogram/Pounds)</h1>
+        <p class="conversion-txt">
+          <span id="kilogram-to-pounds"></span>|<span
+            id="pounds-to-kilogram"
+          ></span>
+        </p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

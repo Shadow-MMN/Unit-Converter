@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    background: #F4F4F4;
+}
+.hero-section{
+    background: #6943FF;
+    padding: 10px;
+   
+}
+.main-heading{
+    display: block;
+    width: 448.4px;
+    height: 38px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+#input-el{
+/* For the box itself */
+    display: block;
+    width: 117px;
+    height: 83px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 2px solid  #B295FF;
+    background-color: #6943FF;
+    /* For the text */
+   font-family: Inter;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 24.39px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+#convert-btn{
+     display: block;
+     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 117px;
+    height: 42px;
+    padding: 9px 27.5px 9px 27.5px;
+    border-radius: 5px;
+    border: none;
+}
+.human-section{
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+}
+.human-child{
+    background: #FFFFFF;
+    width: 500px;
+    height: 108.57px;
+    top: 321px;
+    left: 25px;
+    gap: 18.72px;
+    border-radius: 4.68px;
+    border: 2px solid #6943FF;
+}
+.human-heading{
+    width: 346px;
+    height: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #5A537B;
+}
+.conversion-txt{
+    width: 346px;
+    height: 25px;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #353535;
+}
